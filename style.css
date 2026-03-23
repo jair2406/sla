@@ -14,6 +14,7 @@ header{
 aside{
     grid-area: braco;
     background-color: darkslategrey;
+
 }
 main{
     grid-area: corpo;
@@ -36,6 +37,9 @@ footer{
     font-size: xx-large;
 }
 @media only screen and (max-width: 450px){
+    aside {
+        display: none;
+    }
 }
 .mae{
     display: flex;
