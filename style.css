@@ -36,10 +36,16 @@ footer{
     color: darkseagreen;
     font-size: xx-large;
 }
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 850px){
     aside {
-        display: none;
+     display: none;
     }
+    body {        grid-template-areas: "cabeca"
+                                       "corpo"
+                                       "perna" ;
+                  grid-template-columns: auto;
+                  grid-template-rows: 150px auto 200px;
+                }
 }
 .mae{
     display: flex;
@@ -49,7 +55,7 @@ footer{
 }
 .card{
     border: blue 2px solid;
-    background-color: black;
+    background-color:greenyellow ;
     width: 400px;
     padding: 20px;
     text-align: center;
